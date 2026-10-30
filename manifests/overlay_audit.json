@@ -1,0 +1,15 @@
+{
+  "seed": 532,
+  "sample_size": 30,
+  "unique_annotated_images": 30,
+  "review_status": "completed_visual_spot_check",
+  "observations": [
+    "No obvious systematic mask displacement or rotation observed.",
+    "Masks generally align with visible defect regions.",
+    "Some large or irregular masks may warrant closer inspection."
+  ],
+  "limitations": [
+    "Qualitative visual inspection only.",
+    "Does not establish pixel-perfect annotation correctness."
+  ]
+}

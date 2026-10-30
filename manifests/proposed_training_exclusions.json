@@ -1,0 +1,51 @@
+{
+  "status": "pending_manual_confirmation",
+  "rule": "Flag cross-split training images paired with test_E or dev images at pHash Hamming distance 0.",
+  "reason": "Identical pHash plus visual similarity; candidates require manual confirmation before exclusion.",
+  "proposed_training_exclusions": [
+    "1b7d7eec6.jpg",
+    "3bd0fd84d.jpg",
+    "7c8a469a4.jpg",
+    "a5aa4829b.jpg",
+    "b46dafae2.jpg",
+    "d8be02bfa.jpg",
+    "ef5c1b08e.jpg"
+  ],
+  "pairs": [
+    {
+      "reference_image": "048d14d3f.jpg",
+      "training_image": "7c8a469a4.jpg",
+      "phash_distance": 0
+    },
+    {
+      "reference_image": "3de8f5d88.jpg",
+      "training_image": "a5aa4829b.jpg",
+      "phash_distance": 0
+    },
+    {
+      "reference_image": "b719010ac.jpg",
+      "training_image": "3bd0fd84d.jpg",
+      "phash_distance": 0
+    },
+    {
+      "reference_image": "caf49d870.jpg",
+      "training_image": "ef5c1b08e.jpg",
+      "phash_distance": 0
+    },
+    {
+      "reference_image": "ce5f0cec3.jpg",
+      "training_image": "b46dafae2.jpg",
+      "phash_distance": 0
+    },
+    {
+      "reference_image": "e45010a6a.jpg",
+      "training_image": "d8be02bfa.jpg",
+      "phash_distance": 0
+    },
+    {
+      "reference_image": "f801dd10b.jpg",
+      "training_image": "1b7d7eec6.jpg",
+      "phash_distance": 0
+    }
+  ]
+}

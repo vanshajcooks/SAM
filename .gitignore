@@ -1,0 +1,39 @@
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local datasets and model weights
+/data/
+/checkpoints/
+
+# Intermediate model outputs (keep outputs/comparison artifacts)
+/outputs/sam/
+/outputs/unet/
+
+# IDE and editor files
+.vscode/
+.idea/
+.vs/
+*.code-workspace
+
+# Logs
+*.log
+/logs/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+/secrets/
+*.pem
+*.key
